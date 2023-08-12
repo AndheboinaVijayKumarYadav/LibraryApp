@@ -107,6 +107,8 @@
   .books-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(300px ,1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
   }
 
   .book-card{
@@ -170,6 +172,7 @@
 
   .modal.active{
     transform: translate(-50%,-50%) scale(1);
+    background-color: rgb(220, 183, 172);
   }
 
   .add-book-form {

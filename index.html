@@ -17,6 +17,7 @@
       src="https://kit.fontawesome.com/4c536a6bd5.js"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js" defer></script>
 
 </head>
 <body>
@@ -54,11 +55,11 @@
                         <input type="text" class="input" id="title" placeholder="Title" maxlength="100" required>
                         <p class="error-msg" id="errorMsg"></p>
                         <input type="text" class="input" id="author" placeholder="Author" maxlength="100" required>
-                        <input type="number" class="input" id="pages" placeholder="Pages" max="10000" min="" required>
+                        <input type="number" class="input" id="pages" placeholder="Pages" max="10000" min="1" required>
                         
                         <div class="is-read">
                             <label for="is-read">Have you read it?</label>
-                            <input type="checkbox" class="checkbox" id="is-read">
+                            <input type="checkbox" class="checkbox" id="isRead">
                         </div>
 
                         <button class="btn btn-light-green" type="submit">Submit</button>
