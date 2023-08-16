@@ -37,14 +37,18 @@ const library = new Library();
 
 
 // utility functions
-const openAddBookModal = () => {
+/* 
+    const openAddBookModal = () => {
     formEl.reset();
     addBookModalEl.classList.add('active');
 
     formEl.addEventListener('submit', createBook);
 
-}
+} 
 
+*/
+
+add
 const closeAddBookModal = () => {
     addBookModalEl.classList.remove('active');
     errorMsgEl.classList.remove('active');
